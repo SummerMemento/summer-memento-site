@@ -214,6 +214,7 @@
 .fa {
     padding: 20px;
     margin-bottom: 40px;
+    border-radius: 6px;
     width: 64px;
     text-align: center;
     text-decoration: none;
