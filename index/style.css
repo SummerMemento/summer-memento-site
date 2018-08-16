@@ -105,19 +105,11 @@
     line-height: 2em;
 }
 
-.dark-slide .para-text{
+.dark-slide p{
 	color: white;
 }
 
-.bright-slide .para-text{
-	color: black;
-}
-
-.dark-slide .title-text{
-	color: white;
-}
-
-.bright-slide .title-text{
+.bright-slide p{
 	color: black;
 }
 
@@ -176,6 +168,15 @@
         margin-bottom: 30px;
         text-align: center;
     }
+}
+
+
+.char-name{
+	padding-bottom: 10px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+	letter-spacing: 2px;
 }
 
 .social-media-icons {
