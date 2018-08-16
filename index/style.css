@@ -57,8 +57,6 @@
 }
 
 .borders {
-	padding-top: 60px;
-	padding-bottom: 50px;
     display: flex;
     height: 100%;
 }
@@ -76,11 +74,19 @@
     text-decoration: underline;    
 }
 
+.fa {
+    text-align: center;
+    display:block !important;    
+    margin: 0 auto !important;    
+}
+
 .btn-lg {
     text-align: center;
     display:block;    
     margin: 0 auto;
     width: 200px;
+    height: 64px;
+    line-height: 44px !important;
 }
 
 .btn-lg:hover {
@@ -157,9 +163,14 @@
     max-width: 200px;
 }
 
+.col-wrapper{
+    width: 100%;
+	margin-top: 60px;
+	margin-bottom: 50px;
+}
+
 @media (min-width: 992px) {
     .col-wrapper{
-        width: 100%;
         margin-left: 10%;
         margin-right: 10%;
     }
@@ -174,7 +185,6 @@
 
 @media (max-width: 992px) {
     .col-wrapper{
-        width: 100%;
         margin-left: 5%;
         margin-right: 5%;
     }
@@ -200,10 +210,11 @@
     font-size: 24px;
 }
 
+
 .fa {
     padding: 20px;
     margin-bottom: 40px;
-    width: 60px;
+    width: 64px;
     text-align: center;
     text-decoration: none;
     display:block;
