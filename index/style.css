@@ -59,8 +59,6 @@
 .borders {
 	padding-top: 60px;
 	padding-bottom: 50px;
-    margin-left: 10%;
-    margin-right: 10%;
     display: flex;
     height: 100%;
 }
@@ -160,6 +158,10 @@
         margin-left: 10%;
         margin-right: 10%;
     }
+    .borders{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
     .char-desc {
         margin-bottom: 30px;
     }
@@ -167,6 +169,10 @@
 
 @media (max-width: 992px) {
     .col-wrapper{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .borders{
         margin-left: 5%;
         margin-right: 5%;
     }
