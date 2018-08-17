@@ -135,7 +135,6 @@
     padding-bottom: 40px;
 }
 
-
 .camper-img{
     box-shadow: 0 0 0 3px rgba(0,0,0,0.2);
 	width: 100%;
@@ -195,6 +194,10 @@
     .char-desc {
         margin-bottom: 30px;
         text-align: center;
+    }
+    .camper-desc {
+        max-width: 250px;
+        margin: 0 auto;
     }
 }
 
