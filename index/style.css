@@ -199,6 +199,9 @@
         max-width: 250px;
         margin: 0 auto;
     }
+    .social-media-icons {
+        padding-bottom: 50px;
+    }
 }
 
 .faq-text{
