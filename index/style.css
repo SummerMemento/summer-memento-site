@@ -201,6 +201,22 @@
     }
 }
 
+.faq-text{
+	padding-bottom: 10px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+
+.tldr-text{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 10px;
+	letter-spacing: 2px;
+    padding-bottom: 60px;
+}
+
 .char-name{
 	padding-bottom: 10px;
 	font-family: 'Montserrat', sans-serif;
