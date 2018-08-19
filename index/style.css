@@ -50,6 +50,13 @@
 	font-size: 24px;
 }
 
+.ref {
+    color: #0099DD;
+}
+
+.ref:hover {
+    color: #0066AA;
+}
 
 .slide {
 	left: 0;
